@@ -11,7 +11,7 @@ def mavenHome = tool name: "maven3.6.2"
  {
  sh "${mavenHome}/bin/mvn clean package"
  }
- 
+/*
  stage ('ExecuteSonarqubeReport')
  {
  sh "${mavenHome}/bin/mvn sonar:sonar"
@@ -37,6 +37,7 @@ def mavenHome = tool name: "maven3.6.2"
 Regards
 Mohd Sohail''', cc: 'mohammed.abbas0332@gmail.com', from: '', replyTo: '', subject: 'Build Over', to: 'mohammed.sohail5010@gmail.com'
  }
+*/
 }
 
 
