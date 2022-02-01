@@ -25,7 +25,7 @@ stages{
 	}
   }
   
-  stage('Build'){
+  stage('MavenBuild'){
   steps{
   sh  "mvn clean package"
   }
