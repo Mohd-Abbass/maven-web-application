@@ -39,6 +39,10 @@ Regards
 Mohd Sohail''', cc: 'mohammed.abbas0332@gmail.com', from: '', replyTo: '', subject: 'Build Over', to: 'mohammed.sohail5010@gmail.com'
  }
 */
+ stage ('BuildOtherJob')
+ {
+ build 'wallmart-dev'
+ }
 }
 
 
